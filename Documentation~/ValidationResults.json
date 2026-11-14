@@ -170,5 +170,35 @@
                              }
                          ],
     "screenshotSource":  "Настоящие окна Unity Editor и GameView в Play Mode; текущие версии пакетов и самостоятельно созданные демонстрационные сцены",
-    "publicGitInstallationVerified":  false
+    "publicGitInstallationVerified":  true,
+    "publicPackageSuites":  [
+                                {
+                                    "platform":  "EditMode",
+                                    "skipped":  0,
+                                    "failed":  0,
+                                    "passed":  608
+                                },
+                                {
+                                    "platform":  "PlayMode",
+                                    "skipped":  0,
+                                    "failed":  0,
+                                    "passed":  78
+                                }
+                            ],
+    "publicSampleChecks":  32,
+    "gitAuthentication":  "Помощники аутентификации и запросы учётных данных отключены; чистый проект использует только два публичных HTTPS URL с тегами",
+    "publicPackages":  [
+                           {
+                               "url":  "https://github.com/Oblivio-Mentis/Unity-UniversalFSM-Public.git#v0.2.0",
+                               "name":  "com.obliviomentis.universalfsm",
+                               "source":  "git",
+                               "hash":  "7b23d48753648df9ffbf6a6b0f7ac72773c6ce4c"
+                           },
+                           {
+                               "url":  "https://github.com/Oblivio-Mentis/Unity-UniversalFSMPresentation-Public.git#v0.3.2",
+                               "name":  "com.obliviomentis.presentation",
+                               "source":  "git",
+                               "hash":  "1339bcf25922c48ce89b370889f6a01f6aa16697"
+                           }
+                       ]
 }
