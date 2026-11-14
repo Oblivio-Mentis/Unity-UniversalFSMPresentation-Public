@@ -1,0 +1,174 @@
+{
+    "date":  "2026-11-15",
+    "unityVersion":  "6000.5.7f1",
+    "operatingSystem":  "Windows",
+    "packageSuites":  [
+                          {
+                              "assembly":  "OblivioMentis.Presentation.Editor.Tests.dll",
+                              "platform":  "EditMode",
+                              "skipped":  0,
+                              "failed":  0,
+                              "passed":  28
+                          },
+                          {
+                              "assembly":  "OblivioMentis.UniversalFSM.Editor.Tests.dll",
+                              "platform":  "EditMode",
+                              "skipped":  0,
+                              "failed":  0,
+                              "passed":  226
+                          },
+                          {
+                              "assembly":  "OblivioMentis.UniversalFSM.Tests.dll",
+                              "platform":  "EditMode",
+                              "skipped":  0,
+                              "failed":  0,
+                              "passed":  354
+                          },
+                          {
+                              "assembly":  "OblivioMentis.Presentation.PlayMode.Tests.dll",
+                              "platform":  "PlayMode",
+                              "skipped":  0,
+                              "failed":  0,
+                              "passed":  58
+                          },
+                          {
+                              "assembly":  "OblivioMentis.UniversalFSM.PlayMode.Tests.dll",
+                              "platform":  "PlayMode",
+                              "skipped":  0,
+                              "failed":  0,
+                              "passed":  20
+                          }
+                      ],
+    "sampleAcceptance":  [
+                             {
+                                 "name":  "Создание обеих демонстрационных сцен",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: инициализация независимых объектов",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: отсутствие движения выбирает Idle",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: ввод движения выбирает Move и запускает перемещение",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: отпускание ввода возвращает Idle",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: прыжок игрока",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: завершение прыжка и запуск рывка",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: перемещение во время рывка",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: запуск атаки игрока",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: подтверждение состояния атаки",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: получение урона прерывает атаку",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: восстановление возвращает движение",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: смерть и сброс в начальное состояние",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: патрулирование без обнаруженной цели",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: обнаружение и преследование",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: атака противника и урон в радиусе",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: урон прерывает действие противника",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "FSM: смерть и повторное использование противника",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: инициализация FSM и ресурсов",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: наблюдение запуска звука",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: начальный эффект Idle и переход Run",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: анимация Run и переход Jump",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: анимация Jump и переход Attack",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: переход атаки поглощает Trigger",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: завершение HitStop восстанавливает время",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: сброс восстанавливает начальную анимацию",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: отключённый драйвер игнорирует события",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: включение восстанавливает эффект входа и шину событий",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: включение всего объекта восстанавливает привязку",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: повторное использование сохраняет единственную подписку",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: очистка при прямом отключении драйвера",
+                                 "passed":  true
+                             },
+                             {
+                                 "name":  "Presentation: восстановление шины при прямом включении драйвера",
+                                 "passed":  true
+                             }
+                         ],
+    "screenshotSource":  "Настоящие окна Unity Editor и GameView в Play Mode; текущие версии пакетов и самостоятельно созданные демонстрационные сцены",
+    "publicGitInstallationVerified":  false
+}

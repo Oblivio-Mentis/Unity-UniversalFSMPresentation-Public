@@ -1,0 +1,20 @@
+{
+  "name": "OblivioMentis.Presentation.PlayMode.Tests",
+  "rootNamespace": "OblivioMentis.Presentation.PlayMode.Tests",
+  "references": [
+    "OblivioMentis.Presentation.Runtime",
+    "OblivioMentis.UniversalFSM.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

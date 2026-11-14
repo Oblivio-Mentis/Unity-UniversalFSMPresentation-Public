@@ -1,0 +1,4 @@
+{
+  "name": "BasicPresentation.Runtime",
+  "references": ["OblivioMentis.Presentation.Runtime", "OblivioMentis.UniversalFSM.Runtime"]
+}

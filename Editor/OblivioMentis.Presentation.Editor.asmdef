@@ -1,0 +1,23 @@
+{
+  "name": "OblivioMentis.Presentation.Editor",
+  "rootNamespace": "OblivioMentis.Presentation.Editor",
+  "references": [
+    "OblivioMentis.Presentation.Runtime",
+    "OblivioMentis.UniversalFSM.Runtime",
+    "OblivioMentis.UniversalFSM.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "additionalCompilerArguments": [
+    "-nullable:enable"
+  ]
+}

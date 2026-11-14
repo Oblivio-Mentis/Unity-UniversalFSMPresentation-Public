@@ -1,0 +1,12 @@
+{
+    "name": "OblivioMentis.Presentation.Runtime",
+    "rootNamespace": "OblivioMentis.Presentation",
+    "references": [
+        "OblivioMentis.UniversalFSM.Runtime"
+    ],
+    "autoReferenced": true,
+    "overrideReferences": false,
+    "noEngineReferences": false,
+    "allowUnsafeCode": false,
+    "additionalCompilerArguments": ["-nullable:enable"]
+}

@@ -1,0 +1,30 @@
+{
+    "name":  "com.obliviomentis.presentation",
+    "displayName":  "UniversalFSMPresentation",
+    "version":  "0.3.2",
+    "unity":  "6000.5",
+    "description":  "Анимация, звук, частицы и визуальные эффекты по состояниям UniversalFSM и событиям игры.",
+    "author":  {
+                   "name":  "Oblivio Mentis"
+               },
+    "keywords":  [
+                     "fsm",
+                     "presentation",
+                     "vfx",
+                     "audio"
+                 ],
+    "dependencies":  {
+                         "com.obliviomentis.universalfsm":  "0.2.0"
+                     },
+    "samples":  [
+                    {
+                        "displayName":  "UniversalFSMPresentation — базовый пример",
+                        "description":  "Самостоятельные примеры настройки, эффектов и расширения UniversalFSMPresentation.",
+                        "path":  "Samples~/BasicPresentation"
+                    }
+                ],
+    "license":  "MIT",
+    "documentationUrl":  "https://github.com/Oblivio-Mentis/Unity-UniversalFSMPresentation-Public/blob/main/Documentation~/index.md",
+    "changelogUrl":  "https://github.com/Oblivio-Mentis/Unity-UniversalFSMPresentation-Public/blob/main/CHANGELOG.md",
+    "licensesUrl":  "https://github.com/Oblivio-Mentis/Unity-UniversalFSMPresentation-Public/blob/main/LICENSE.md"
+}

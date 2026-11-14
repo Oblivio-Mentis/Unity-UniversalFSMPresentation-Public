@@ -1,0 +1,5 @@
+{
+  "name": "BasicPresentation.Editor",
+  "references": ["BasicPresentation.Runtime", "OblivioMentis.Presentation.Runtime", "OblivioMentis.UniversalFSM.Runtime"],
+  "includePlatforms": ["Editor"]
+}
